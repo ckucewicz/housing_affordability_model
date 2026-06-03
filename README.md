@@ -6,7 +6,7 @@ An analysis of housing affordability, vacancy, poverty, and population trends ac
 
 **Which Illinois counties would benefit most from targeted community revitalization investment?**
 
-This project develops a composite need score to identify and rank Illinois counties based on five indicators of housing and economic vulnerability, with the goal of informing where community revitalization programs — such as home repair grants, land bank initiatives, and vacant property interventions — could have the greatest impact.
+This project develops a composite need score to identify and rank Illinois counties based on five indicators of housing and economic vulnerability, with the goal of informing where community revitalization programs - such as home repair grants, land bank initiatives, and vacant property interventions - could have the greatest impact.
 
 ## Methodology
 
@@ -20,7 +20,7 @@ Each of Illinois' 102 counties is scored across five variables using 2022 ACS 5-
 | Homeownership rate % | Lower = more need | Lower ownership signals less housing stability |
 | Vacancy rate % | Higher = more need | Indicates deteriorating or abandoned housing stock |
 
-Each variable is percentile-ranked across all 102 counties, summed, and divided by 5 to produce a composite score on a 0–100 scale.
+Each variable is percentile-ranked across all 102 counties, summed, and divided by 5 to produce a composite score on a 0-100 scale.
 
 ## Key Findings
 
@@ -85,12 +85,12 @@ U.S. Census Bureau, American Community Survey 5-Year Estimates (2014, 2016, 2018
 
 ## Considerations & Constraints
 
-- **ACS 5-year estimates are rolling averages** — "2022" data actually reflects 2018–2022, not a single point in time
-- **County-level analysis masks local variation** — conditions within a county like Cook can vary dramatically by neighborhood
-- **Equal weighting is a methodological choice** — assigning different weights to the five composite variables could produce different rankings
-- **Missing dimensions** — housing stock condition, age of housing, and homelessness are relevant to revitalization but not captured in ACS data
+- **ACS 5-year estimates are rolling averages** - "2022" data actually reflects 2018–2022, not a single point in time
+- **County-level analysis masks local variation** - conditions within a county like Cook can vary dramatically by neighborhood
+- **Equal weighting is a methodological choice** - assigning different weights to the five composite variables could produce different rankings
+- **Missing dimensions** - housing stock condition, age of housing, and homelessness are relevant to revitalization but not captured in ACS data
 - **Relative ranking, not absolute need** — percentile scoring identifies which counties are worst compared to each other, not whether a county meets an objective threshold of need
-- **Not population-weighted** — a high-need county of 5,000 residents and one of 500,000 are ranked equivalently. This is intentional, as community revitalization programs often target smaller communities that lack the scale to attract private investment. However, population context should be considered when evaluating the scale of potential impact.
+- **Not population-weighted** - a high-need county of 5,000 residents and one of 500,000 are ranked equivalently. This is intentional, as community revitalization programs often target smaller communities that lack the scale to attract private investment. However, population context should be considered when evaluating the scale of potential impact.
 
 ## Author
 
