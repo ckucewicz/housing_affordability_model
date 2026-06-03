@@ -32,7 +32,7 @@ Each variable is percentile-ranked across all 102 counties, summed, and divided 
 
 ## Presentation
 
-[View the full presentation](https://drive.google.com/file/d/11p8aGg4BMyhU6w95RAHhcNhg74wkRBxr/view?usp=sharing)
+[View the full presentation](https://drive.google.com/file/d/1pjbgWVqyDkp9R0V5HGMq1lz1njFkshe8/view?usp=sharing)
 
 ## Repository Structure
 
