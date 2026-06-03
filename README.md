@@ -39,13 +39,17 @@ Each variable is percentile-ranked across all 102 counties, summed, and divided 
 ```
 illinois-housing-revitalization/
 ├── README.md
-├── 01_data_pull.R          # Census API data pull and processing
-├── 02_analysis.R           # Composite score calculation and ranking
-├── 03_visualizations.R     # Chart and map generation
-├── illinois_housing_affordability.csv   # Processed dataset (510 rows)
-├── composite_scores.csv    # All 102 counties ranked
-├── top5_counties.csv       # Top 5 counties detail
-└── slides/                 # Exported chart PNGs
+├── data/
+│   ├── illinois_housing_affordability.csv   # Processed dataset (510 rows)
+│   ├── composite_scores.csv                 # All 102 counties ranked
+│   └── top5_counties.csv                    # Top 5 counties detail
+├── notebooks/
+│   ├── 01_data_pull.R                       # Census API data pull and processing
+│   ├── 02_analysis.R                        # Composite score calculation and ranking
+│   └── 03_visualizations.R                  # Chart and map generation
+├── presentation/
+│   └── IL_Community_Revitalization_Analysis.pptx
+└── visualizations/
     ├── slide2_map.png
     ├── slide2_table.png
     ├── slide3_rent_burden.png
@@ -69,10 +73,10 @@ illinois-housing-revitalization/
 # Install packages
 install.packages(c("tidycensus", "tidyverse", "tigris", "sf", "scales", "gt", "ggrepel", "showtext"))
 
-# Set your Census API key in 01_data_pull.R, then run in order:
-source("01_data_pull.R")    # Pulls data, outputs CSV (~2 min)
-source("02_analysis.R")     # Scores counties, outputs rankings
-source("03_visualizations.R") # Generates all charts and maps
+# Set your Census API key in notebooks/01_data_pull.R, then run in order:
+source("notebooks/01_data_pull.R")    # Pulls data, outputs CSV (~2 min)
+source("notebooks/02_analysis.R")     # Scores counties, outputs rankings
+source("notebooks/03_visualizations.R") # Generates all charts and maps
 ```
 
 ## Data Source
