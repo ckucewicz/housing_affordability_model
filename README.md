@@ -47,8 +47,8 @@ illinois-housing-revitalization/
 │   ├── 01_data_pull.R                       # Census API data pull and processing
 │   ├── 02_analysis.R                        # Composite score calculation and ranking
 │   └── 03_visualizations.R                  # Chart and map generation
-├── presentation/
-│   └── IL_Community_Revitalization_Analysis.pptx
+├──  IL_Community_Revitalization_Analysis.pptx # Presentation
+│
 └── visualizations/
     ├── slide2_map.png
     ├── slide2_table.png
